@@ -1,7 +1,7 @@
 import { v4 as uuid } from 'uuid';
 
-import { Factory } from '../../../../shared/factories/factory.interface';
-import { Comment } from '../entities/comment.entity';
+import { Factory } from '../../../../../shared/factories/factory.interface';
+import { Comment } from '../../entities/comment.entity';
 
 export class NewCommentParameters {
   constructor(

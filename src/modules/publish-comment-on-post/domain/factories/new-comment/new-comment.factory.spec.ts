@@ -1,5 +1,5 @@
 import { NewCommentFactory, NewCommentParameters } from './new-comment.factory';
-import { Comment } from '../entities/comment.entity';
+import { Comment } from '../../entities/comment.entity';
 
 describe('CommentFactory', () => {
   let commentFactory: NewCommentFactory;
