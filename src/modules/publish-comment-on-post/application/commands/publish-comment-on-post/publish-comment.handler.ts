@@ -1,5 +1,5 @@
-import { NewCommentFactory } from '../../domain/factories/new-comment.factory';
-import { CommentRepository } from '../../domain/repositories/comment.repository';
+import { NewCommentFactory } from '../../../domain/factories/new-comment.factory';
+import { CommentRepository } from '../../../domain/repositories/comment.repository';
 
 export class PublishCommentCommand {
   constructor(

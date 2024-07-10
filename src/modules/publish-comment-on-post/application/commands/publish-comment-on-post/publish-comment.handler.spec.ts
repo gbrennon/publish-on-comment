@@ -1,10 +1,13 @@
 import {
   PublishCommentHandler,
-  PublishCommentCommand
+  PublishCommentCommand,
 } from './publish-comment.handler';
-import { CommentRepository } from '../../domain/repositories/comment.repository';
-import { NewCommentFactory, NewCommentParameters } from '../../domain/factories/new-comment.factory';
-import { Comment } from '../../domain/entities/comment.entity';
+import { CommentRepository } from '../../../domain/repositories/comment.repository';
+import {
+  NewCommentFactory,
+  NewCommentParameters,
+} from '../../../domain/factories/new-comment.factory';
+import { Comment } from '../../../domain/entities/comment.entity';
 
 describe('PublishCommentHandler', () => {
   let handler: PublishCommentHandler;
