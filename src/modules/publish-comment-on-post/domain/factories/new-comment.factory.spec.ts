@@ -19,7 +19,6 @@ describe('CommentFactory', () => {
     expect(comment).toBeInstanceOf(Comment);
     expect(comment.postId).toBe(postId);
     expect(comment.content).toBe(content);
-    // expect(comment.author).toBe(author);
     expect(comment.id).toBeDefined();
   });
 
