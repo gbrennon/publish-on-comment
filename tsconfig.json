@@ -17,5 +17,10 @@
     "strictBindCallApply": true,
     "forceConsistentCasingInFileNames": true,
     "noFallthroughCasesInSwitch": true
+  },
+  "baseUrl": "./",
+  "paths": {
+    "@/*": ["src/*"],
+    "@shared/*": ["src/shared/*"]
   }
 }
